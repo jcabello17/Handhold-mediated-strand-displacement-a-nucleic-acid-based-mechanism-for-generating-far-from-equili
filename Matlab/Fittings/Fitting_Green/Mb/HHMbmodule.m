@@ -95,8 +95,7 @@ function HHMbmodule(Files,folder,foldrep,foldM5)
             
 
 %% Beginning of the loop %%    
-    %for    hhh=1:(size(data,2)/4) %Starts Loop that read in group of 4 (same amount of replicas)
-    for hhh=6
+    for    hhh=1:(size(data,2)/4) %Starts Loop that read in group of 4 (same amount of replicas)
     hhb=hhh*4; 
             
             
